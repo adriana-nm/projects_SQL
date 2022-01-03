@@ -10,7 +10,7 @@ This project is divided in two parts:
   *  DB_creation_and_loading/creation_database.py
   *  DB_creation_and_loading\populate_tables.py
 
-2.- Queries on this database.
+2. Queries on this database.
   * Data_exploration\data_exploration_caloric_supply.ipynb
   * Data_exploration\data_exploration_food_expenditure.ipynb
   * Data_exploration\data_exploration_gdp.ipynb
