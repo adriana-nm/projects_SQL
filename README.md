@@ -1,7 +1,7 @@
 # SQL Project
 
 The purpose of this project is to use SQL as an exploratory tool, towards this end we will create a database with it's 
-corresponding tables and import datasets from [ourworldindata.org](www.ourworldindata.org). Finally we'll analyse this 
+corresponding tables and import datasets from [ourworldindata.org](http://www.ourworldindata.org). Finally we'll analyse this 
 information using SQL.
 
 This project is divided in two parts:
@@ -32,7 +32,7 @@ and you'll need to replace the credentials with your own user and passwords. You
       ```
     
     * To populate the tables with the datasets downloaded
-    from [ourworldindata.org](www.ourworldindata.org) run
+    from [ourworldindata.org](http://www.ourworldindata.org) run
       ```shell script
       python DB_creation_and_loading\populate_tables.py
       ```
@@ -82,7 +82,7 @@ Our main questions are:
 * How the protein consumption has changed among the years
 * Is the protein consumption and GDP related?
 
-We selected the site [ourworldindata.org](www.ourworldindata.org) that contains food and social indicators
+We selected the site [ourworldindata.org](http://www.ourworldindata.org) that contains food and social indicators
 
 
 ### 2 - Identify the required tables
@@ -93,7 +93,7 @@ According to our data requirements we identify 4 datasets we'll need to download
 * protein supply by region
 
 ### 3 - Extract the data  
-In [this](www.ourworldindata.org) website we have downloaded each table on csv files.
+In [this](http://www.ourworldindata.org) website we have downloaded each table on csv files.
 - path: FILES\food_expenditure_vs_gdp.csv
 - path: FILES\food_supply_vs_life_expectancy.csv
 - path: FILES\protein_supply.csv
