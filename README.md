@@ -6,16 +6,15 @@ information using SQL.
 
 This project is divided in two parts:
 
-1.- Creation of the Database and tables. Data population in the tables.
-  *  DB_creation_and_loading/creation_database.py
-  *  DB_creation_and_loading\populate_tables.py
-
+1. Creation of the Database and tables. Data population in the tables.
+    * DB_creation_and_loading/creation_database.py
+    * DB_creation_and_loading\populate_tables.py
 2. Queries on this database.
-  * Data_exploration\data_exploration_caloric_supply.ipynb
-  * Data_exploration\data_exploration_food_expenditure.ipynb
-  * Data_exploration\data_exploration_gdp.ipynb
-  * Data_exploration\data_exploration_protein_consumption_part1.ipynb
-  * Data_exploration\data_exploration_protein_consumption_part2.ipynb
+    * Data_exploration\data_exploration_caloric_supply.ipynb
+    * Data_exploration\data_exploration_food_expenditure.ipynb
+    * Data_exploration\data_exploration_gdp.ipynb
+    * Data_exploration\data_exploration_protein_consumption_part1.ipynb
+    * Data_exploration\data_exploration_protein_consumption_part2.ipynb
 
 ## Using this Notebook
 
