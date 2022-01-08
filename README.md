@@ -6,26 +6,29 @@ information using SQL.
 
 This project is divided in two parts:
 
-1. Creation of the Database and tables. Data population in the tables.
-    * DB_creation_and_loading/creation_database.py
-    * DB_creation_and_loading\populate_tables.py
+1. Creation of the Database and tables. Load datasets into the tables.
+    * DB_CREATION_AND_LOADING\creation_database.py
+    * DB_CREATION_AND_LOADING\populate_tables.py
 2. Queries on this database.
-    * Data_exploration\data_exploration_caloric_supply.ipynb
-    * Data_exploration\data_exploration_food_expenditure.ipynb
-    * Data_exploration\data_exploration_gdp.ipynb
-    * Data_exploration\data_exploration_protein_consumption_part1.ipynb
-    * Data_exploration\data_exploration_protein_consumption_part2.ipynb
+    * DATA_EXPLORATION\data_exploration_caloric_supply.ipynb
+    * DATA_EXPLORATION\data_exploration_food_expenditure.ipynb
+    * DATA_EXPLORATION\data_exploration_gdp.ipynb
+    * DATA_EXPLORATION\data_exploration_protein_consumption_part1.ipynb
+    * DATA_EXPLORATION\data_exploration_protein_consumption_part2.ipynb
 
-## Using this Notebook
+## Using this repository
 
-You can use this notebook in the following way:  
+You can use this repository in the following way:  
 
 1. Use github as a viewer to observe the sql queries with ```.ipynb``` extension. You don't need to have Jupyter Notebook 
 installed. To proceed with this option just click on the files in the directory ```DATA EXPLORATION```.   
 
-2. Clone this repository to create the database in your local machine. You will need to have Python and Jupyter installed
-and you'll need to replace the credentials with your own user and passwords. You can see the configuration details in the
- ```Installation and configuration``` section. 
+2. Run this repository locally. To achieve this you will need to have Python and Jupyter installed.
+    * Clone the repository
+    
+    * Control the credentials. You'll need to replace the credentials with your own user and passwords. You can see the configuration details in the
+ ```Installation and configuration``` section.
+    
     * To create the database and the tables in your local machine run
        ```shell script
       python DB_creation_and_loading/creation_database.py
@@ -51,10 +54,9 @@ and you'll need to replace the credentials with your own user and passwords. You
 To run the scripts locally you will need to have installed:
 * Python v.3.x.x
 * Libraries
-    * pandas
-    * mysql.connector
-    * os
-    * numpy
+    * pandas:1.1.3
+    * mysql.connector:2.2.9
+    * numpy:1.19.2
 * Jupyter Notebook
 * Read and write access to a MySQL database
 
