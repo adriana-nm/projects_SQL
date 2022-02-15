@@ -1,3 +1,11 @@
+# Table of Contents
+1. [SQL Project](#sql-project)
+2. [Using this repository](#using-this-repository)
+3. [Installation and configuration](#installation-and-configuration)
+4. [Project process](#project-process)
+
+
+
 # SQL Project
 
 The purpose of this project is to use SQL as an exploratory tool, towards this end we will create a database with it's 
